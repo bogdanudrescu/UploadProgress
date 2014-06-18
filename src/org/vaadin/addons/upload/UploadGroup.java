@@ -85,6 +85,7 @@ public abstract class UploadGroup extends Panel {
 			producer.removeUpload(uploadProgress);
 		}
 
+		// TODO: Move this in UploadProducer.
 		// FIXME: ASK: What's faster?
 
 		//		init();

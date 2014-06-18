@@ -166,6 +166,9 @@ public class UploadProgress extends CustomComponent {
 		@Override
 		public OutputStream receiveUpload(String filename, String mimeType) {
 
+			this.filename = filename;
+			this.mimeType = mimeType;
+
 			this.stream = null;
 			OutputStream stream = null;
 
